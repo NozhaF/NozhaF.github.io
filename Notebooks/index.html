@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Notebooks</h1>
+
+<!-- <ul class="notebook">
+	{% for notebook in site.pages %}
+	{% if notebook.type == 'notebook' %}
+	<li class="article" >
+		<a href="{{site.baseurl}}/{{notebook.permalink}}">{{notebook.title}}</a>
+	</li>
+	{% endif %}
+	{% endfor %}
+</ul>
+ -->
+<div class="main-content">
+{% for notebook in site.pages %}
+	{% if notebook.type == 'notebook' %}
+<div class="moleskine-wrapper">
+    <div class="moleskine-notebook">
+      <div class="notebook-cover blue">
+        <div class="notebook-skin"><a href="{{site.baseurl}}/{{notebook.permalink}}">{{notebook.title}}</a></div>
+      </div>
+      <div class="notebook-page">{{notebook.description}}</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+</div>

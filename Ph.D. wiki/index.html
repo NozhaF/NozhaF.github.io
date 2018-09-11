@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+
+
+<h1>Papers</h1>
+
+<ol>
+	{% for paper in site.pages %}
+	{% if paper.type == 'phd-primary' %}
+	<li class="article" >
+		<a href="{{site.baseurl}}/{{paper.permalink}}">{{paper.title}}</a>
+	</li>
+	{% endif %}
+	{% endfor %}
+</ol>
