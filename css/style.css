@@ -48,15 +48,16 @@ h1 {
 }
 
 h1.homepage {
-  width:320px;
-  height: 140;
+  /*width:320px;*/
+  /*height: 140;*/
   font-weight: normal;
   padding-top: 10px;
   font-family: 'Modak', cursive;
   font-size: 70px;
-  color: var(--dark);
-  background-color: var(--orange);
-  border: var(--boxborder) solid var(--dark); 
+  color: var(--orange);
+  text-shadow: 2px 0 0 var(--dark), -2px 0 0 var(--dark), 0 2px 0 var(--dark), 0 -2px 0 var(--dark), 1px 1px var(--dark), -1px -1px 0 var(--dark), 1px -1px 0 var(--dark), -1px 1px 0 var(--dark);
+  /*background-color: var(--orange);
+  border: var(--boxborder) solid var(--dark); */
 }
 
 
