@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: ""
+baseurl:
 exclude: ['README.md', 'js']
 title: Nozzha
 description: Physics, code experiments and much more...
