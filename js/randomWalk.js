@@ -16,12 +16,15 @@ var colors = ["#ED1156", "#ED194E", "#ED2247", "#ED2B3F", "#EE3438", "#EE3D31", 
 
 
 function setup() {
-  var canvas = createCanvas(windowWidth, 700);
- 
+  var canvas = createCanvas(windowWidth, windowHeight);
+ canvas.position(0,0);
   // Move the canvas so it's inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
+  
+  canvas.style('z-index','-1');
 
   background(255, 1);
+
 }
 
 

@@ -1,6 +1,6 @@
 markdown: kramdown
 baseurl: /nozhaf.github.io
-exclude: ['README.md', 'js']
+exclude: ['README.md']
 title: Nozzha
 description: Physics, code experiments and much more...
 url: https://nozhaf.github.io
