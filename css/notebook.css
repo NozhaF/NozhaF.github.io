@@ -78,7 +78,7 @@ h1 small {
 
 .notebook-cover.blue {
 /*  background: #0EB39E;*/
-background-image: url("../img/lightblue-cover.jpg");
+background-image: url("../img/random-cover.png");
 background-size: 200px 150px;
 }
 .notebook-cover.blue:before {

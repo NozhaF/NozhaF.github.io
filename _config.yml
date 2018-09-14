@@ -1,9 +1,5 @@
 markdown: kramdown
-<<<<<<< HEAD
-baseurl: /nozhaf.github.io
-=======
 baseurl: ""
->>>>>>> 16d9d6707fd117d7f68b34f621563b734a931280
 exclude: ['README.md']
 title: Nozzha
 description: Physics, code experiments and much more...

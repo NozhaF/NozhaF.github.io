@@ -51,7 +51,7 @@ h1.homepage {
   /*width:320px;*/
   /*height: 140;*/
   font-weight: normal;
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: 'Modak', cursive;
   font-size: 70px;
   color: var(--orange);
@@ -95,10 +95,10 @@ p {
   margin-bottom: 10px;
 }
 
-nav a {
-  padding: 10px;
+nav.nav-home a {
+  padding: 5px;
   font-family: 'Modak', cursive;
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   color: var(--dark);
   background: var(--blue);
@@ -106,24 +106,31 @@ nav a {
 }
 
 a {
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: 'Carter One', cursive;
   font-size: 12px;
   text-decoration: none;
   color: var(--paleblue);
 }
 
+a.notebook{
+    padding: 5px;
+  font-family: 'Carter One', cursive;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--dark);
+}
 
 nav ul {
-  margin: 10px;
-  padding: 20px;
+  margin: 2px;
+  padding: 5px;
   list-style: none;
 }
 
 nav li{
   display: inline-block;
-  padding: 20px;
-  margin:10px;
+  padding: 5px;
+  margin:2px;
 }
 
 li.article {
@@ -133,29 +140,77 @@ li.article {
   color: var(--paleblue);
 }
 
-ul.contact {
+/*ul.contact {
   list-style: none;
-} 
+  margin: 10px;
+  padding: 20px;
+} */
 
 ul.notebook {
   list-style: none;
 }
-ul.contact a {
+nav.contact a {
   border-radius: 0%;
-  background: var(--red);
-  border: var(--boxborder) solid var(--dark);
+  /*background: var(--red);
+  border: var(--boxborder) solid var(--dark);*/
   
 }
 
-li.contact {
+/*li.contact {
   display: inline-block;
-  padding: 50px;
-}
+  padding: 20px;
+  margin: 10px;
+}*/
 
 footer {
   font-weight: normal;
   font-size: 12px;
-  padding-top: 80px;
-  font-family: 'Modak', cursive;
+  padding-top: 50px;
+  font-family: 'Carter One', cursive;
   color: var(--blue);
+  text-shadow: 2px 0 0 var(--dark), -2px 0 0 var(--dark), 0 2px 0 var(--dark), 0 -2px 0 var(--dark), 1px 1px var(--dark), -1px -1px 0 var(--dark), 1px -1px 0 var(--dark), -1px 1px 0 var(--dark);
 }
+
+
+ blockquote.about {
+  display:inline-block;
+  padding: 5px;
+  width: 800px;
+  margin: 2px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 35px;
+  color: var(--paleblue);
+  /*text-indent: 23px;*/
+  }
+ 
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+  
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+
+blockquote.homepage cite {
+    color: #999999;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote.homepage {
+  display:inline-block;
+  padding: 5px;
+  width: 800px;
+  margin: 2px;
+  font-family: 'Carter One', cursive;
+  font-size: 15px;
+  color: #fff;
+  text-shadow: 2px 0 0 var(--dark), -2px 0 0 var(--dark), 0 2px 0 var(--dark), 0 -2px 0 var(--dark), 1px 1px var(--dark), -1px -1px 0 var(--dark), 1px -1px 0 var(--dark), -1px 1px 0 var(--dark);
+  /*text-indent: 23px;*/
+  }
