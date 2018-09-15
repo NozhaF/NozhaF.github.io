@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Random Walk
+title: Notebook - 4
 type: notebook
 category:
 image:
 description:
-permalink: Random Walk.html
+permalink: notebook4.html
 ---
 
-# Random Walk
+# Notebook title
