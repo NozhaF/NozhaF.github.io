@@ -118,7 +118,7 @@ nav a:hover{
 
 div.nav-home {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   width: 100%;
   display: inline-block;
   background: var(--blue);
@@ -237,7 +237,7 @@ blockquote.homepage cite {
 blockquote.homepage {
   display:inline-block;
   padding: 5px;
-  width: 800px;
+  width: 75%;
   margin: 2px;
   font-family: 'Carter One', cursive;
   font-size: 15px;
