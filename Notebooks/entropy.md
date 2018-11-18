@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Notebook - 3
+title: Entropy
 type: notebook
 category:
 image:
 description:
-permalink: notebook3.html
+permalink: entropy.html
 ---
 
 
-# Notebook title
+# Entropy
