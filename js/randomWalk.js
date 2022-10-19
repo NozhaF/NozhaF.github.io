@@ -28,7 +28,7 @@ function setup() {
   
   canvas.style('z-index','-1');
 blendMode(MULTIPLY);
-  background(50, 1);
+  background(30, 0.2);
 
 }
 
