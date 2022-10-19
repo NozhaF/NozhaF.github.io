@@ -35,8 +35,9 @@ function setup() {
 
 function draw(){
 
+	tint(255, 0.2)
 noStroke();
-fill(colors[c], 0.2);
+fill(colors[c]);
 //ellipse(circle.x,circle.y,10,10);
 rect(square.x,square.y,10,10);
 
