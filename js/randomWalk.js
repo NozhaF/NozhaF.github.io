@@ -27,15 +27,15 @@ function setup() {
   canvas.parent('sketch-holder');
   
   canvas.style('z-index','-1');
-
-  background(20, 1);
+blendMode(MULTIPLY);
+  background(50, 1);
 
 }
 
 
 function draw(){
 
-	blendMode(MULTIPLY);
+	
 noStroke();
 fill(colors[c]);
 //ellipse(circle.x,circle.y,10,10);
