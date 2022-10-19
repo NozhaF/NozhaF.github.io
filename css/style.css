@@ -50,7 +50,7 @@ h1 {
   padding-top: 10px;
   font-family: 'Modak', cursive;
   font-size: 70px;
-  color: var(--orange); 
+  color: var(--red); 
 }
 
 h1.homepage {
