@@ -37,9 +37,9 @@ function draw(){
 
 	
 noStroke();
-fill(colors[c]);
+fill(colors[c]).setAlpha(alpha);
 //ellipse(circle.x,circle.y,10,10);
-rect(square.x,square.y,10,10).setAlpha(50);
+rect(square.x,square.y,10,10);
 
 c += cspeed;
 if (c >= colors.length) {
