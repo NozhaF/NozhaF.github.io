@@ -28,7 +28,7 @@ function setup() {
   
   canvas.style('z-index','-1');
 
-  // background(255, 1);
+  background(20, 1);
 
 }
 
