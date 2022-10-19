@@ -35,8 +35,7 @@ function setup() {
 
 function draw(){
 
-	var op = map(mouseX, 0, width, 0, 255)
-  tint(255, op)
+	blendMode(MULTIPLY);
 noStroke();
 fill(colors[c]);
 //ellipse(circle.x,circle.y,10,10);
